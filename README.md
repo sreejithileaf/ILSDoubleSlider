@@ -62,11 +62,15 @@ The font of the thumb label. If not set, the default is "Helvetica Neue" font si
 #### `sliderLineHeight`
 Set the height of the line. It will automatically round the corners. If not specified, the default value will be `5`.
 
-#### `rangeSlider.showSlider(FromView:<View inside which the slider to be displaed>)`
+```swift
+rangeSlider.showSlider(FromView:<View inside which the slider to be displaed>)
+```
 This function to show the slider inside the content view
 
+```swift
+func doubleSliderValueChaged(minValue: String, maxValue: String)
+```
 
-#### `func doubleSliderValueChaged(minValue: String, maxValue: String)`
 This function is a callback to get the minimum and maximum selected value from the slider
 
 
