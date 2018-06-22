@@ -13,13 +13,13 @@
         <!--View Controller-->
         <scene sceneID="4ba-1b-zEs">
             <objects>
-                <viewController id="LwD-GH-qV6" customClass="ViewController" customModule="DoubleSlider" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LwD-GH-qV6" customClass="ViewController" customModule="ILSDoubleSliderExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R7d-b7-JXM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ng-Cd-VaT" customClass="ILSDoubleSliderView">
-                                <rect key="frame" x="37.5" y="98" width="300" height="50"/>
+                                <rect key="frame" x="37.5" y="318.5" width="300" height="50"/>
                                 <color key="backgroundColor" white="0.85584852430000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="Qdr-V0-tIT"/>
@@ -29,7 +29,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="9Ng-Cd-VaT" firstAttribute="top" secondItem="e0A-Sd-7qX" secondAttribute="top" constant="78" id="LtN-fB-aF7"/>
+                            <constraint firstItem="9Ng-Cd-VaT" firstAttribute="centerY" secondItem="e0A-Sd-7qX" secondAttribute="centerY" id="2ZO-J0-joA"/>
                             <constraint firstItem="9Ng-Cd-VaT" firstAttribute="centerX" secondItem="e0A-Sd-7qX" secondAttribute="centerX" id="oh3-F3-z5U"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="e0A-Sd-7qX"/>

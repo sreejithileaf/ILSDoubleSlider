@@ -25,7 +25,8 @@ class ViewController: UIViewController,ILSDoubleSliderDelegate {
         rangeSlider.delegate = self
         rangeSlider.maxPosition = 50
         rangeSlider.minPosition = 0
-        rangeSlider.tintColorBetweenHandles =  .brown
+        rangeSlider.sliderLabelColor = .white
+        rangeSlider.tintColorBetweenHandles = .orange
         
         rangeSlider.showSlider(FromView:rangeSliderContentView)
         
