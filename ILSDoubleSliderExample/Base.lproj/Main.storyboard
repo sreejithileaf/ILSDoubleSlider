@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LwD-GH-qV6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4ba-1b-zEs">
+            <objects>
+                <viewController id="LwD-GH-qV6" customClass="ViewController" customModule="DoubleSlider" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R7d-b7-JXM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ng-Cd-VaT" customClass="ILSDoubleSliderView">
+                                <rect key="frame" x="37.5" y="98" width="300" height="50"/>
+                                <color key="backgroundColor" white="0.85584852430000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Qdr-V0-tIT"/>
+                                    <constraint firstAttribute="height" constant="50" id="b1h-dL-3lA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9Ng-Cd-VaT" firstAttribute="top" secondItem="e0A-Sd-7qX" secondAttribute="top" constant="78" id="LtN-fB-aF7"/>
+                            <constraint firstItem="9Ng-Cd-VaT" firstAttribute="centerX" secondItem="e0A-Sd-7qX" secondAttribute="centerX" id="oh3-F3-z5U"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="e0A-Sd-7qX"/>
+                    </view>
+                    <connections>
+                        <outlet property="rangeSliderContentView" destination="9Ng-Cd-VaT" id="Xve-Jv-F3S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aJw-44-8sd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-263" y="-7"/>
+        </scene>
+    </scenes>
+</document>
