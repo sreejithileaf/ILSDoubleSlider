@@ -1,7 +1,7 @@
 # ILSDoubleSlider
 ILSDoubleSlider is a highly customizable range slider to display the value of the selection over the thumb
 
-<img src="https://user-images.githubusercontent.com/32927921/41774587-f8fa4614-763d-11e8-8a3e-3bda4fd4c939.png">
+<img src="https://user-images.githubusercontent.com/32927921/41775528-cc8a76f4-7641-11e8-9bbf-067cb3cca722.png">
 
 ## Installation
 
