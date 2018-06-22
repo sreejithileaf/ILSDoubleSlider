@@ -28,8 +28,9 @@ var rangeSlider = ILSDoubleSliderView()
 ```
 
 4. Connect the content view to hold the slider view . 
-
-- Create the `RangeSeekSlider` in code using `RangeSeekSlider()` then add it as a subview to your code and set the relevant autolayout properties or frame.
+```swift
+ @IBOutlet weak var rangeSliderContentView: ILSDoubleSliderView!
+```
 
 ## Features
 
@@ -63,7 +64,7 @@ The font of the thumb label. If not set, the default is "Helvetica Neue" font si
 Set the height of the line. It will automatically round the corners. If not specified, the default value will be `5`.
 
 ```swift
-rangeSlider.showSlider(FromView:<View inside which the slider to be displaed>)
+rangeSlider.showSlider(FromView:rangeSliderContentView)
 ```
 This function to show the slider inside the content view
 
