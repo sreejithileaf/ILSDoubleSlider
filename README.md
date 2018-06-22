@@ -7,7 +7,7 @@ ILSDoubleSlider is a highly customizable range slider to display the value of th
 
 ### Compatibility
 
--  iOS 8.0+
+-  iOS 9.0+
 
 - Xcode 9.0+, Swift 4+
 

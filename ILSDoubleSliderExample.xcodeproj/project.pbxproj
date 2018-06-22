@@ -12,9 +12,9 @@
 		82F422DD20DD1320003551D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F422DB20DD1320003551D7 /* Main.storyboard */; };
 		82F422DF20DD1320003551D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F422DE20DD1320003551D7 /* Assets.xcassets */; };
 		82F422E220DD1320003551D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F422E020DD1320003551D7 /* LaunchScreen.storyboard */; };
-		82F422EA20DD135B003551D7 /* ILSDoubleSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F422E920DD135B003551D7 /* ILSDoubleSlider.framework */; };
-		82F422EB20DD1363003551D7 /* ILSDoubleSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F422E920DD135B003551D7 /* ILSDoubleSlider.framework */; };
-		82F422EC20DD1363003551D7 /* ILSDoubleSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82F422E920DD135B003551D7 /* ILSDoubleSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		82F422F320DD1DAB003551D7 /* ILSDoubleSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F422F220DD1DAB003551D7 /* ILSDoubleSlider.framework */; };
+		82F422F420DD1DB5003551D7 /* ILSDoubleSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F422F220DD1DAB003551D7 /* ILSDoubleSlider.framework */; };
+		82F422F520DD1DB5003551D7 /* ILSDoubleSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82F422F220DD1DAB003551D7 /* ILSDoubleSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				82F422EC20DD1363003551D7 /* ILSDoubleSlider.framework in Embed Frameworks */,
+				82F422F520DD1DB5003551D7 /* ILSDoubleSlider.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,7 +39,7 @@
 		82F422DE20DD1320003551D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82F422E120DD1320003551D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82F422E320DD1320003551D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82F422E920DD135B003551D7 /* ILSDoubleSlider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ILSDoubleSlider.framework; sourceTree = "<group>"; };
+		82F422F220DD1DAB003551D7 /* ILSDoubleSlider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ILSDoubleSlider.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82F422EA20DD135B003551D7 /* ILSDoubleSlider.framework in Frameworks */,
-				82F422EB20DD1363003551D7 /* ILSDoubleSlider.framework in Frameworks */,
+				82F422F320DD1DAB003551D7 /* ILSDoubleSlider.framework in Frameworks */,
+				82F422F420DD1DB5003551D7 /* ILSDoubleSlider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +58,7 @@
 		82F422CB20DD1320003551D7 = {
 			isa = PBXGroup;
 			children = (
-				82F422E920DD135B003551D7 /* ILSDoubleSlider.framework */,
+				82F422F220DD1DAB003551D7 /* ILSDoubleSlider.framework */,
 				82F422D620DD1320003551D7 /* ILSDoubleSliderExample */,
 				82F422D520DD1320003551D7 /* Products */,
 			);
@@ -302,6 +302,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ILSDoubleSliderExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ileaf.ILSDoubleSliderExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -320,6 +321,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ILSDoubleSliderExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ileaf.ILSDoubleSliderExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
